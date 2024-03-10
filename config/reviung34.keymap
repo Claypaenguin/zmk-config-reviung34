@@ -34,7 +34,7 @@
 
         ext_layer {
             bindings = <
-&kp ESC         &none             &none         &none         &none    &kp PG_UP  &kp HOME           &kp UP         &kp END    &kp CAPSLOCK
+&kp ESC         &none             &none         &none         &to 6    &kp PG_UP  &kp HOME           &kp UP         &kp END    &kp CAPSLOCK
 &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_GUI  &none    &kp PG_DN  &kp LEFT           &kp DOWN       &kp RIGHT  &kp DEL
 &kp LG(Z)       &kp LG(X)         &kp LG(C)     &kp LG(V)     &none    &kp ENTER  &kp LA(BACKSPACE)  &kp BACKSPACE  &kp TAB    &kp PSCRN
                                                 &none         &none    &mo 5      &mo 3
@@ -88,7 +88,7 @@
 
         ext_layer_win {
             bindings = <
-&kp ESC         &none             &none         &none         &none       &kp PG_UP  &kp HOME           &kp UP         &kp END    &kp CAPSLOCK
+&kp ESC         &none             &none         &none         &to 0       &kp PG_UP  &kp HOME           &kp UP         &kp END    &kp CAPSLOCK
 &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_GUI  &sk RALT    &kp PG_DN  &kp LEFT           &kp DOWN       &kp RIGHT  &kp DEL
 &kp LC(Z)       &kp LC(X)         &kp LC(C)     &kp LC(V)     &none       &kp ENTER  &kp LA(BACKSPACE)  &kp BACKSPACE  &kp TAB    &kp PSCRN
                                                 &none         &none       &mo 5      &mo 3
